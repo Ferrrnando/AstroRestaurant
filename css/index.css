@@ -1,0 +1,42 @@
+.carousel-control-next-icon, .carousel-control-prev-icon{
+    height: 40px;
+    width: 40px;
+}
+.carousel {
+    margin: auto;
+    height: 500px;
+  }
+.carousel.inner > img
+{
+    height: 500px;
+}
+
+.carousel-caption{
+    background-color: rgba(255, 255, 255, 0.356);
+    color: rgb(71, 71, 71);
+}
+body{
+    background: linear-gradient(87deg, #ffffff, #fcfca6, #fefe68, #f5f5b1);
+    background-size: 800% 800%;
+    
+    -webkit-animation: animationbg 52s ease infinite;
+    -moz-animation: animationbg 52s ease infinite;
+    animation: animationbg 52s ease infinite;
+    margin-top: 60px;    
+}
+
+@-webkit-keyframes animationbg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes animationbg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes animationbg {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
