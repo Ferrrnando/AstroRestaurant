@@ -4,18 +4,30 @@
 }
 .carousel {
     margin: auto;
-    height: 500px;
+    background-color: rgba(255, 255, 0, 0.473);
   }
-.carousel.inner > img
-{
-    height: 500px;
-}
+
 
 .carousel-caption{
     background-color: rgba(255, 255, 255, 0.356);
-    color: rgb(71, 71, 71);
+    color: rgb(0, 0, 0);
 }
 body{
+    margin-top: 60px;
+}
+.carousel-inner img {
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+ }
+ .row{
+background-color:rgba(0, 0, 0, 0.205) ;
+
+ }
+.col-lg-4{
+   text-align: center;
+}
+/*body{
     background: linear-gradient(87deg, #ffffff, #fcfca6, #fefe68, #f5f5b1);
     background-size: 800% 800%;
     
@@ -39,4 +51,4 @@ body{
     0%{background-position:0% 50%}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
-}
+}*/
