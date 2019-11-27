@@ -28,7 +28,7 @@ background-color:rgba(0, 0, 0, 0.205) ;
    text-align: center;
 }
 .footer {
-    background-color: #414141;
+    background-color:rgb(52, 58, 64);
     width: 100%;
     text-align: left;
     font-family: sans-serif;
@@ -51,6 +51,7 @@ background-color:rgba(0, 0, 0, 0.205) ;
   .footer .footer-left {
     width: 33%;
     padding-right: 15px;
+    text-align: left;
   }
   
   .footer .about {
@@ -92,7 +93,9 @@ background-color:rgba(0, 0, 0, 0.205) ;
   /* footer center*/
   
   .footer .footer-center {
+    
     width: 30%;
+    text-align: left;
   }
   
   .footer .footer-center i {
@@ -137,6 +140,7 @@ background-color:rgba(0, 0, 0, 0.205) ;
   
   .footer .footer-right {
     width: 35%;
+    text-align: right;
   }
   
   .footer h2 {
@@ -190,6 +194,9 @@ background-color:rgba(0, 0, 0, 0.205) ;
       margin-left: 0;
     }
   }
+.brand{
+    max-height:80px ;
+}
 /*body{
     background: linear-gradient(87deg, #ffffff, #fcfca6, #fefe68, #f5f5b1);
     background-size: 800% 800%;
