@@ -2,30 +2,39 @@
     height: 40px;
     width: 40px;
 }
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f90' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f90' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
 .carousel {
     margin: auto;
-    background-color: rgba(255, 255, 0, 0.473);
+    background-color: rgb(204, 204, 199);
   }
 
 
 .carousel-caption{
-    background-color: rgba(255, 255, 255, 0.356);
+    background-color: rgba(204, 204, 199, 0.253);
     color: rgb(0, 0, 0);
+    font-weight: bold;
 }
+
 body{
-    margin-top: 60px;
+   padding-top: 63px;
+   background-color:rgba(0, 0, 0, 0.63)
+   
 }
 .carousel-inner img {
     margin: auto;
     height: auto;
     max-width: 100%;
  }
- .row{
-background-color:rgba(0, 0, 0, 0.205) ;
 
- }
-.col-lg-4{
+.col-lg-4, .col-lg-4>h2{
    text-align: center;
+   color: white;
 }
 .footer {
     background-color:rgb(52, 58, 64);
@@ -36,6 +45,7 @@ background-color:rgba(0, 0, 0, 0.205) ;
     font-size: 16px;
     padding: 50px;
     margin-top: 50px;
+    
   }
   
   .footer .footer-left,
